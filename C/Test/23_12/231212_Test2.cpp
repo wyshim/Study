@@ -11,6 +11,8 @@ int main()
 
 	std::cout << "예외 : 다른 곳에서도 수정이 될 수 있기 때문에" << std::endl;
 	std::cout << "항상 같은 최신 파일인지를 확인해야 함 -> 페치(petch) -> 풀(pull)" << std::endl;
+
+	std::cout << "충돌 나는 상황 가정" << std::endl;
 	
 	return 0;
 }
