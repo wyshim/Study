@@ -2,17 +2,17 @@
 
 int main()
 {
-	std::cout << "gitì— ì˜¬ë¦¬ëŠ” ë°©ë²• : " << std::endl;
+	std::cout << "git¿¡ ¿Ã¸®´Â ¹æ¹ý : " << std::endl;
 	std::cout << "1. Do Something..." << std::endl;
-	std::cout << "2. <Git ë³€ê²½ ë‚´ìš©> ì°½ ì¼œê¸°" << std::endl;
-	std::cout << "3. ì»¤ë°‹ ë©”ì‹œì§€ ìž‘ì„±" << std::endl;
-	std::cout << "4. <ëª¨ë‘ ì»¤ë°‹> ë²„íŠ¼ ëˆ„ë¥´ê¸° - ì»¤ë°‹ ì„±ê³µì¸ì§€ í™•ì¸" << std::endl;
-	std::cout << "5. <í‘¸ì‰¬>ê¹Œì§€ í•´ì•¼ ì‹¤ì œ ì›ê²© gitì— ì—…ë¡œë“œ ëœ ê²ƒ" << std::endl;
+	std::cout << "2. <Git º¯°æ ³»¿ë> Ã¢ ÄÑ±â" << std::endl;
+	std::cout << "3. Ä¿¹Ô ¸Þ½ÃÁö ÀÛ¼º" << std::endl;
+	std::cout << "4. <¸ðµÎ Ä¿¹Ô> ¹öÆ° ´©¸£±â - Ä¿¹Ô ¼º°øÀÎÁö È®ÀÎ" << std::endl;
+	std::cout << "5. <Çª½¬>±îÁö ÇØ¾ß ½ÇÁ¦ ¿ø°Ý git¿¡ ¾÷·Îµå µÈ °Í" << std::endl;
 
-	std::cout << "ì˜ˆì™¸ : ë‹¤ë¥¸ ê³³ì—ì„œë„ ìˆ˜ì •ì´ ë  ìˆ˜ ìžˆê¸° ë•Œë¬¸ì—" << std::endl;
-	std::cout << "í•­ìƒ ê°™ì€ ìµœì‹  íŒŒì¼ì¸ì§€ë¥¼ í™•ì¸í•´ì•¼ í•¨ -> íŽ˜ì¹˜(petch) -> í’€(pull)" << std::endl;
-	std::cout << "ì¶©ëŒ ë‚˜ëŠ” ìƒí™© ê°€ì •" << std::endl;
-	std::cout << "git ì›ê²©ì´ ë°”ê¼ˆëŠ”ë° petch, pullì„ ì•ˆí•˜ê³  ë¡œì»¬ gitì— ë‚´ìš© ìž‘ì„±í•œ ê²½ìš°" << std::endl;
+	std::cout << "¿¹¿Ü : ´Ù¸¥ °÷¿¡¼­µµ ¼öÁ¤ÀÌ µÉ ¼ö ÀÖ±â ¶§¹®¿¡" << std::endl;
+	std::cout << "Ç×»ó °°Àº ÃÖ½Å ÆÄÀÏÀÎÁö¸¦ È®ÀÎÇØ¾ß ÇÔ -> ÆäÄ¡(petch) -> Ç®(pull)" << std::endl;
+	std::cout << "Ãæµ¹ ³ª´Â »óÈ² °¡Á¤" << std::endl;
+	std::cout << "git ¿ø°ÝÀÌ ¹Ù²¼´Âµ¥ petch, pullÀ» ¾ÈÇÏ°í ·ÎÄÃ git¿¡ ³»¿ë ÀÛ¼ºÇÑ °æ¿ì" << std::endl;
 
 	return 0;
 }
