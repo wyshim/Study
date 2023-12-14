@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>
+
 int main()
 {
 	double f;
@@ -8,8 +8,6 @@ int main()
 	std::cout << i;
 	return 0;
 }
-
-
 
 
 /*
