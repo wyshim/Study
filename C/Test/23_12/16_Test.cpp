@@ -34,17 +34,12 @@ int main()
 	std::cout << sizeof(arr[0]) << " " << sizeof(arr[0][0]) << " " << sizeof(arr);
 	//arr[0], arr[1] 는 int* 형이 됨 : arr[x][y] 연산이 *(arr[x]+y) 니까 arr[x]는 포인터가 된다
 	*/
-	
-
 	int arr[2][3] = { {1,2,3}, {4,5,6} };
 	// int** parr;
 	// parr = arr;
 	int(*parr)[3] = arr;
-
-	std::cout << arr << " " << arr + 1 << std::endl;
-	// 메모리 주소 12바이트 차이 arr는 arr[0][0], arr+1은 arr[1][0]주소 타입변환
-
+	std::cout << arr << " " << arr + 1 << std::endl; // 메모리 주소 12바이트 차이 arr는 arr[0][0], arr+1은 arr[1][0]주소 타입변환
 	std::cout << arr[1][1] << " " << parr[1][1];
-
+	
 	return 0;
 }
