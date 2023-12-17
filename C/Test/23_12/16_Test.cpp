@@ -2,7 +2,7 @@
 
 int main()
 {
-	
+
 	//int a, b;
 	/*
 	const int* pa;
@@ -14,7 +14,7 @@ int main()
 	*pa = 2;
 	//pa = &b;
 	*/
-	
+
 	/*
 	int arr[3] = { 1, 2, 3 };
 	int(*parr)[3] = &arr;
@@ -23,9 +23,9 @@ int main()
 	std::cout << arr << " " << parr << " " << &arr[0] << " " << &arr << std::endl;
 	std::cout << sizeof(arr) << " " << sizeof(&arr[0]);
 	// arr 자체는 어떤 메모리 공간에 존재하는 것은 아님
-	// arr과 parr의 타입은 다름	
+	// arr과 parr의 타입은 다름
 	*/
-	
+
 
 	/*
 	int arr[2][3];
@@ -34,7 +34,7 @@ int main()
 	std::cout << sizeof(arr[0]) << " " << sizeof(arr[0][0]) << " " << sizeof(arr);
 	//arr[0], arr[1] 는 int* 형이 됨 : arr[x][y] 연산이 *(arr[x]+y) 니까 arr[x]는 포인터가 된다
 	*/
-	
+
 
 	int arr[2][3] = { {1,2,3}, {4,5,6} };
 	// int** parr;
