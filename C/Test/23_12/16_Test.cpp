@@ -27,11 +27,14 @@ int main()
 	*/
 	
 
-	
+	/*
 	int arr[2][3];
 	std::cout << arr[0] << " " << &arr[0][0] << std::endl;
 	// 암묵적으로 타입 변환 시 같은 것으로 변함
-	std::cout << sizeof(arr[0]) << " " << sizeof(arr[0][0]);
+	std::cout << sizeof(arr[0]) << " " << sizeof(arr[0][0]) << " " << sizeof(arr);
+	//arr[0], arr[1] 는 int* 형이 됨 : arr[x] 연산이 *(arr+x) 니까
+	*/
+	
 	
 	return 0;
 }
