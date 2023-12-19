@@ -35,11 +35,22 @@ int main()
 	return 0;
 	*/
 
+	/*
 	char a, b, c;
 	a = 100;
 	b = 300;
 	c = a + b;
 	std::cout << (int)a << " + " << (int)b << " = " << (int)c;
+	*/
+
+	char word[30] = { "long sentence" };
+	char* str = word;
+	std::cout << str << std::endl;
+	int a[5] = {1,2,3,4,5};
+	int* b = a;
+	std::cout << *b << b[1] << b[2];
+
+	return 0;
 }
 
 int max(int a, int b)
