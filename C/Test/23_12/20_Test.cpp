@@ -1,4 +1,5 @@
 #include <iostream>
+
 /*
 int Length(char* a)
 {
@@ -21,7 +22,7 @@ int main()
 	return 0;
 }
 */
-
+/*
 int Length(char* k)
 {
 	int i = 0;
@@ -62,3 +63,98 @@ int main()
 	std::cout << search(str1, str2);
 	return 0;
 }
+*/
+/*
+class book
+{
+public:
+	book() {};
+	book(char* n_title, char* n_name, char* n_publish)
+	{
+		while (*n_title)
+		{
+			*title = *n_title;
+			++n_title;
+		}
+		while (*n_name)
+		{
+			*name = *n_name;
+			++n_name;
+		}
+		while (*n_publish)
+		{
+			*publish = *n_publish;
+			++n_publish;
+		}
+	}
+
+	bool find(char* f_title)
+	{
+		while (*f_title)
+		{
+			if (*title != *f_title) return false;
+			++f_title;
+			++title;
+		}
+		return true;
+	}
+
+	char* title;
+	char* name;
+	char* publish;
+};
+
+int main()
+{
+	book Book[100];
+	
+
+	return 0;
+}
+*/
+
+int function()
+{
+	static int how_many_called = 0;
+	++how_many_called;
+	std::cout << "function called : " << how_many_called << std::endl;
+	return 0;
+}
+
+int main()
+{
+	function();
+	function();
+	function();
+	function();
+	function();
+	function();
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
