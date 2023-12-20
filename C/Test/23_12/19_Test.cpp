@@ -7,6 +7,28 @@ void pswap(int** pa, int** pb)
 	*pa = temp;
 }
 
+int Length(char* a)
+{
+	int i = 0;
+	while (a[i])
+	{
+		i++;
+	}
+	return i;
+}
+
+bool isequal(char* a, char* b)
+{
+	if (Length(a) == Length(b))
+	{
+		for (int i = 0; i < Length(a); i++)
+		{
+			if (a[i] != b[i]) return false;
+		}
+	}
+	return true;
+}
+
 int max(int, int);
 int main()
 {
@@ -43,12 +65,23 @@ int main()
 	std::cout << (int)a << " + " << (int)b << " = " << (int)c;
 	*/
 
+	/*
 	char word[30] = { "long sentence" };
 	char* str = word;
 	std::cout << str << std::endl;
 	int a[5] = {1,2,3,4,5};
 	int* b = a;
-	std::cout << *b << b[1] << b[2];
+	std::cout << b;
+	*/
+
+	
+	char str_a[] = "abc";
+	char str_b[] = "abc";
+
+	if (isequal(str_a, str_b))
+	{
+		std::cout << "equal";
+	}
 
 	return 0;
 }
