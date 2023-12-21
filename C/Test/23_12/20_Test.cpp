@@ -115,7 +115,7 @@ int main()
 
 int function()
 {
-	static int how_many_called = 0;
+	static int how_many_called = 0; // 초기화는 한 번만 일어남, {} 벗어나도 살아있는 변수 static
 	++how_many_called;
 	std::cout << "function called : " << how_many_called << std::endl;
 	return 0;
