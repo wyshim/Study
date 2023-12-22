@@ -14,7 +14,7 @@ int main()
 	return 0;
 }
 */
-
+/*
 union A
 {
 	int i;
@@ -25,6 +25,7 @@ int main()
 {
 	union A a;
 	a.i = 0x12345678;
-	printf("%x", a.j);
+	printf("%x", a.j); // 높은 주소값에 상위 비트를 적는 리틀 엔디안
 	return 0;
 }
+*/
