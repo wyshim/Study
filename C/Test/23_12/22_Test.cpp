@@ -10,9 +10,9 @@ int main()
 	if (i == SPRING) std::cout << "SPRING";
 }
 */
+/*
 int read_char(void* p, int byte)
 {
-	int* num_p;
 	do
 	{
 		std::cout << std::hex << (int) *(char*)p << std::endl;
@@ -28,4 +28,16 @@ int main()
 	int arr[1] = { 0x12345678 };
 	std::cout << std::hex << arr[0] << std::endl;
 	read_char(arr, 4);
+}
+*/
+
+int main(int argc, char** argv)
+{
+	int i;
+	std::cout << "받은 인자의 개수 : " << argc << std::endl;
+	for (i = 0; i < argc; i++)
+	{
+		std::cout << "이 프로그램이 받은 인자 : " << argv[i] << std::endl;
+	}
+	return 0;
 }
