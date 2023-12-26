@@ -24,12 +24,27 @@ Node* insertNode(Node* current, int newData)
 	return newNode;
 }
 
+/*
 void printNode(Node* current)
 {
 	if (current)
 	{
 		printNode(current->next);
 		std::cout << current->data << std::endl;
+	}
+}
+*/
+
+void printNode(Node* head)
+{
+	if (head)
+	{
+		std::cout << head->data << std::endl;
+		while (head->next)
+		{
+			head = head->next;
+			std::cout << head->data << std::endl;
+		}
 	}
 }
 
