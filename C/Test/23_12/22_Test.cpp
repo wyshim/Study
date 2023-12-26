@@ -30,7 +30,7 @@ int main()
 	read_char(arr, 4);
 }
 */
-
+/*
 int main(int argc, char** argv)
 {
 	int i;
@@ -41,3 +41,4 @@ int main(int argc, char** argv)
 	}
 	return 0;
 }
+*/
