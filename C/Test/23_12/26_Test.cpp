@@ -59,7 +59,7 @@ int main()
 	printNode(mainNode);
 }
 */
-
+/*
 int main()
 {
 	int arr[10] = { 1,2,3,4,5 };
@@ -73,4 +73,16 @@ int main()
 		std::cout << "불일치" << std::endl;
 	}
 	return 0;
+}
+*/
+
+#define square(x) x*x // 매크로함수
+#define AddName(x, y) x##y
+__inline int cubic(int a) { return a * a * a; }
+int main()
+{
+	std::cout << square(3 + 1) << std::endl;
+	std::cout << cubic(3 + 1) << std::endl;
+	int AddName(a, b) = 3;
+	std::cout << ab;
 }
