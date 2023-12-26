@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string.h>
 
+/*
 struct Node
 {
 	int data;
@@ -24,7 +26,7 @@ Node* insertNode(Node* current, int newData)
 	return newNode;
 }
 
-/*
+
 void printNode(Node* current)
 {
 	if (current)
@@ -33,7 +35,7 @@ void printNode(Node* current)
 		std::cout << current->data << std::endl;
 	}
 }
-*/
+
 
 void printNode(Node* head)
 {
@@ -52,6 +54,23 @@ int main()
 {
 	Node* mainNode = createNode(1);
 	Node* secondNode = insertNode(mainNode, 2);
-	insertNode(secondNode, 3);
+	Node* thirdNode = insertNode(secondNode, 3);
+	insertNode(secondNode, 4);
 	printNode(mainNode);
+}
+*/
+
+int main()
+{
+	int arr[10] = { 1,2,3,4,5 };
+	int arr2[10] = { 1,2,3,3,5 };
+	if (memcmp(arr, arr2, sizeof(int)*5) == 0)
+	{
+		std::cout << "일치" << std::endl;
+	}
+	else
+	{
+		std::cout << "불일치" << std::endl;
+	}
+	return 0;
 }
