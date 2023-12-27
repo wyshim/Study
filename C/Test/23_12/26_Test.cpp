@@ -81,7 +81,7 @@ int main()
 __inline int cubic(int a) { return a * a * a; }
 int main()
 {
-	std::cout << square(3 + 1) << std::endl;
+	std::cout << square(3 + 1) << std::endl; // 3+1 * 1+3 = 7
 	std::cout << cubic(3 + 1) << std::endl;
 	int AddName(a, b) = 3;
 	std::cout << ab;
