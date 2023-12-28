@@ -1,5 +1,5 @@
 #include <iostream>
-
+/*
 int add(int a, int b) { return a + b; }
 typedef int CAL_TYPE; // int = CAL_TYPE
 typedef int(*Padd)(int, int); // add 함수 포인터
@@ -17,4 +17,15 @@ int main()
 	std::cout << ptr(3, 5);
 	
 	return 0;
+}
+*/
+
+int main()
+{
+	int i = -3;
+	while (i)
+	{
+		std::cout << "a";
+		i++;
+	}
 }
